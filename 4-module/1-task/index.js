@@ -1,8 +1,8 @@
 function makeFriendsList(friends) {
   let ul = document.createElement('ul');
-  for (let i = 0; i < friends.length; i++) {
+  for (let friend of friends) {
     let li = document.createElement('li');
-    li.textContent = friends[i].firstName + ' ' + friends[i].lastName;
+    li.textContent = `${friend.firstName} ${friend.lastName}`;
     ul.appendChild(li);
   }
   return ul;
