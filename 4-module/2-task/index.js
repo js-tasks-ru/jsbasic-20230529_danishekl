@@ -8,7 +8,6 @@ function makeDiagonalRed(table) {
   }
 }
 
-let table = document.querySelector('table');
-makeDiagonalRed(table);
+
 
 
